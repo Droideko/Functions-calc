@@ -9,7 +9,7 @@
 function arrayConversion(inputArray) {         
    for (let i = 1; inputArray.length !== 1; i++){
       let arr = [];
-      if (i % 2 === 1){
+      if (i % 2){
          for (let j = 0; j < inputArray.length; j+=2){
             arr.push(inputArray[j] + inputArray[j+1] || 0);                                    
          }
